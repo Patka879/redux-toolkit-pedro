@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(53, 53, 196);
+    color: rgb(217, 214, 214);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(105%);
+}
+
+button:active {
+    transform: scale(99%);
+}
+
+p {
+    font-size: 1.2em
+}
+
