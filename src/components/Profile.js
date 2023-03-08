@@ -2,7 +2,7 @@ import { useSelector } from "react-redux"
 
 export default function Profile() {
 
-    const user =useSelector((state) => state.user.value)
+    const user = useSelector((state) => state.user.value)
 
     return (
         <div>
