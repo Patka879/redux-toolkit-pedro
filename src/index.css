@@ -30,3 +30,18 @@ p {
     font-size: 1.2em
 }
 
+input { 
+    height: 30px;
+    text-indent: 10px;
+    border: 1px solid rgb(53, 53, 196)
+}
+
+.color-change {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+

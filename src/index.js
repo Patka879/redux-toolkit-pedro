@@ -5,10 +5,12 @@ import App from './App';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import userReducer from './features/userSlice'
+import colorReducer from './features/colorSlice'
 
 const store = configureStore({
   reducer: {
     user: userReducer,
+    color: colorReducer
   }
 })
 
